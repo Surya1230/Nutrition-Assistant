@@ -1,46 +1,316 @@
-# 🍏 Nutrition Assistant
+<div align="center">
 
-A comprehensive full-stack web application designed to help users track their daily nutritional intake, manage their diets, and make healthier food choices. 
+# 🥗 Nutrition Assistant
 
-This repository not only contains the source code but also follows a complete **Software Development Life Cycle (SDLC)**, documenting every phase from initial brainstorming to final demonstration.
+### *Track Smart • Eat Healthy • Live Better*
 
-## 🔗 Quick Links
-* **Live Application:** [Nutrition Assistant on Vercel](https://nutrition-assistant-ten.vercel.app/)
-* **Video Demonstration:** [Watch on Google Drive](https://drive.google.com/file/d/1qSYxZaZ1YlfyhAmkOxF3N0Kg1IWGlVK6/view)
-* **Project Repository:** [GitHub Link](https://github.com/IslavathuSurya-89/Nutrition-Assistant)
+<p align="center">
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js" />
+  <img src="https://img.shields.io/badge/Express-API-000000?style=for-the-badge&logo=express" />
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb" />
+  <img src="https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel" />
+  <img src="https://img.shields.io/badge/Render-Backend-46E3B7?style=for-the-badge&logo=render" />
+</p>
 
----
+A **Full-Stack Nutrition Tracking Web Application** that enables users to monitor their daily calorie intake, analyze nutritional values, and maintain healthier eating habits.
 
-## ✨ Features
-* **Calorie & Macro Tracking:** Monitor your daily intake of proteins, carbohydrates, and fats.
-* **Food Database Search:** Quickly find food items to view their detailed nutritional profiles.
-* **Personalized Dashboard:** Visualize your dietary habits and progress toward your health goals.
-* **Responsive UI:** Seamless experience across desktop, tablet, and mobile devices.
-
-## 🛠️ Technology Stack
-* **Frontend (`/client`):** React.js / Next.js, CSS/Tailwind *(Update with your exact framework)*
-* **Backend (`/server`):** Node.js, Express.js
-* **Database:** MongoDB / PostgreSQL *(Update with your database)*
-* **Deployment:** Vercel (Frontend) & Render (Backend)
+**Developed following the complete Software Development Life Cycle (SDLC)** from brainstorming to deployment and documentation.
 
 ---
 
-## 📂 Project Structure
+## 🌐 Live Demo
 
-This project is meticulously organized into SDLC phases alongside the actual source code:
+### 🚀 Live Website
+👉 https://nutrition-assistant-ten.vercel.app/
+
+### 🎥 Project Demo
+👉 https://drive.google.com/file/d/1qSYxZaZ1YlfyhAmkOxF3N0Kg1IWGlVK6/view
+
+### 💻 GitHub Repository
+👉 https://github.com/IslavathuSurya-89/Nutrition-Assistant
+
+</div>
+
+---
+
+# 📖 About the Project
+
+Nutrition Assistant is a modern web application designed to help users build healthy eating habits by tracking calories, macronutrients, and food intake.
+
+The application provides an intuitive dashboard, nutritional analysis, and responsive design to ensure a seamless experience across all devices.
+
+The project also demonstrates a structured SDLC approach including requirement gathering, planning, design, development, testing, documentation, and deployment.
+
+---
+
+# ✨ Key Features
+
+## 🍽 Food Search
+- Search thousands of food items
+- View nutritional information instantly
+
+## 🔥 Calorie Tracking
+- Monitor daily calorie intake
+- Maintain healthy eating goals
+
+## 🥩 Macronutrient Analysis
+Track
+
+- Protein
+- Carbohydrates
+- Fats
+
+with detailed nutritional insights.
+
+## 📊 Dashboard
+
+View
+
+- Daily nutrition summary
+- Calories consumed
+- Macronutrient distribution
+- Overall health progress
+
+## 👤 User Friendly
+
+- Easy navigation
+- Responsive UI
+- Modern design
+- Mobile friendly
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| **Frontend** | React.js, Tailwind CSS, Vite |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB |
+| **Deployment** | Vercel & Render |
+| **Version Control** | Git & GitHub |
+
+---
+
+# 📂 Project Structure
 
 ```text
 📦 Nutrition-Assistant
- ┣ 📂 1.Brainstroming & Ideation    # Initial concepts and problem statements
- ┣ 📂 2.Requirement Analysis        # Functional and non-functional requirements
- ┣ 📂 3.Project Design Phase        # System architecture and UI/UX designs
- ┣ 📂 4.Project Planning Phase      # Tech stack selection and sprint planning
- ┣ 📂 5.Project Development Phase   # Development guidelines and standards
- ┣ 📂 6.Performance Testing         # QA, unit testing, and Lighthouse scores
- ┣ 📂 7.Documentation & Demo        # User manuals and API documentation
- ┣ 📂 8.Project Demonstration       # Presentation materials and links
- ┣ 📂 client                        # Frontend application source code
- ┣ 📂 server                        # Backend API source code
- ┣ 📜 .env.example                  # Environment variables template
- ┣ 📜 render.yaml                   # Backend deployment configuration for Render
- ┗ 📜 vercel.json                   # Frontend deployment configuration for Vercel
+│
+├── 📁 1.Brainstorming & Ideation
+│     └── Initial ideas, problem statement, objectives
+│
+├── 📁 2.Requirement Analysis
+│     └── Functional & Non-Functional Requirements
+│
+├── 📁 3.Project Design Phase
+│     └── Architecture, UI/UX, Flow Diagrams
+│
+├── 📁 4.Project Planning Phase
+│     └── Sprint Planning & Technology Selection
+│
+├── 📁 5.Project Development Phase
+│     └── Coding Standards & Implementation
+│
+├── 📁 6.Performance Testing
+│     └── Testing Reports & Performance Analysis
+│
+├── 📁 7.Documentation & Demo
+│     └── User Manual & API Documentation
+│
+├── 📁 8.Project Demonstration
+│     └── PPT, Demo Video & Final Report
+│
+├── 📁 client
+│     └── React Frontend
+│
+├── 📁 server
+│     └── Express Backend APIs
+│
+├── 📄 .env.example
+├── 📄 render.yaml
+├── 📄 vercel.json
+└── 📄 README.md
+```
+
+---
+
+# ⚙ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/IslavathuSurya-89/Nutrition-Assistant.git
+```
+
+```bash
+cd Nutrition-Assistant
+```
+
+---
+
+## Install Frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+---
+
+## Install Backend
+
+```bash
+cd server
+npm install
+npm start
+```
+
+---
+
+# 🔐 Environment Variables
+
+Create a `.env` file inside the **server** folder.
+
+```env
+PORT=5000
+
+MONGODB_URI=Your_MongoDB_URI
+
+JWT_SECRET=Your_JWT_Secret
+
+API_KEY=Your_API_Key
+```
+
+---
+
+# 🚀 Deployment
+
+| Platform | Status |
+|----------|---------|
+| Frontend | Vercel |
+| Backend | Render |
+
+---
+
+# 📊 SDLC Workflow
+
+```text
+💡 Brainstorming
+       │
+       ▼
+📋 Requirement Analysis
+       │
+       ▼
+🎨 Project Design
+       │
+       ▼
+📝 Project Planning
+       │
+       ▼
+💻 Development
+       │
+       ▼
+🧪 Testing
+       │
+       ▼
+📚 Documentation
+       │
+       ▼
+🚀 Deployment & Demonstration
+```
+
+---
+
+# 📸 Screenshots
+
+> Add screenshots here.
+
+```
+📷 Home Page
+
+📷 Dashboard
+
+📷 Food Search
+
+📷 Nutrition Report
+
+📷 Mobile View
+```
+
+---
+
+# 🎯 Future Enhancements
+
+- 🥗 Meal Planner
+- 🤖 AI Nutrition Recommendations
+- 📈 Weekly Reports
+- 🍎 Barcode Food Scanner
+- 🔔 Water Intake Reminder
+- 🌙 Dark Mode
+- 📱 Mobile App
+- 📊 Health Analytics
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+
+2. Create your feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push
+
+```bash
+git push origin feature-name
+```
+
+5. Create a Pull Request
+
+---
+
+# 👨‍💻 Developer
+
+**Surya**
+
+B.Tech - Computer Science & Engineering
+
+Vishnu Institute of Technology
+
+GitHub
+
+https://github.com/IslavathuSurya-89
+
+---
+
+# ⭐ Support
+
+If you found this project useful,
+
+⭐ **Star this repository**
+
+It motivates future improvements.
+
+---
+
+<div align="center">
+
+## 💚 Eat Healthy • Stay Fit • Live Better 💚
+
+Made with ❤️ using React, Node.js, Express & MongoDB
+
+</div>
